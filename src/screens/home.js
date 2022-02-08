@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StatusBar, Text} from 'react-native';
+import {Auth} from 'aws-amplify'
 
 const HomeScreen = (props) => {
   return (
