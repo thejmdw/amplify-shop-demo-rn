@@ -84,12 +84,12 @@ const AddProductScreen = ({navigation}) => {
             description: value.description,
             userId: user.attributes.sub,
             userName: user.username,
-            image: photo,
+            image: photo ? photo : '',
           },
         }),
       );
-      console.log('Response :\n');
-      console.log(response);
+      // console.log('Response :\n');
+      // console.log(response);
       navigation.navigate('Home');
     } catch (e) {
       console.log(e.message);
