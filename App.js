@@ -44,7 +44,13 @@ import {Button} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {withAuthenticator} from 'aws-amplify-react-native';
 
-Amplify.configure(awsconfig)
+Amplify.configure({
+  ...awsconfig,
+  Analytics: {
+    disabled: true,
+  },
+});
+
 
 async function signIn() {
   try {

@@ -9,11 +9,11 @@ type Product
     { allow: owner },
     { allow: private, operations: [read] }
   ]) {
-    id: ID!
-    name: String!
-    description: String
-    price: Float
-    userId: String
-    userName: String
-    image: String
-  }
+  id: ID!
+  name: String!
+  description: String
+  price: Float
+  userId: String
+  userName: String
+  image: String
+}

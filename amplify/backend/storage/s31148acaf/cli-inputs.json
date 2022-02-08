@@ -1,0 +1,14 @@
+{
+  "resourceName": "s31148acaf",
+  "policyUUID": "1148acaf",
+  "bucketName": "amplifyshopdemo4626b28b6e4c42d4897cf16b4fec55b8",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

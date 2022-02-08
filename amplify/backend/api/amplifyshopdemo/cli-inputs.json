@@ -5,13 +5,15 @@
     "serviceName": "AppSync",
     "gqlSchemaPath": "/Users/thejmdw/workspace/projects/amplify-shop-demo/amplify/backend/api/amplifyshopdemo/schema.graphql",
     "defaultAuthType": {
-      "mode": "API_KEY",
-      "expirationTime": 7
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authamplifyshopdemoa2cfd3fe"
     },
     "additionalAuthTypes": [
       {
-        "mode": "AMAZON_COGNITO_USER_POOLS",
-        "cognitoUserPoolId": "authamplifyshopdemodbe45187"
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-02-15T19:16:39.782Z",
+        "keyDescription": "guest"
       }
     ]
   }
